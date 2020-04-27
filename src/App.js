@@ -5,6 +5,15 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <Title />
+    </div>
+  );
+}
+
+export default App;
+function App() {
+  return (
+    <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
